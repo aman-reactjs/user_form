@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hey Yash</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>This is a Form</h1>
+    <div class="container">
+        <div class="form">
+            <label for="userName">UserName</label>
+            <input type="text" class="input" name="username" id="userName" placeholder="Enter username" required>
+            <br><br>
+            <label for="mobile">Mobile No</label>
+            <input type="tel" class="input" name="mobileNumber" id="mobile" placeholder="Enter mobile number" pattern="[0-9]{10}" inputmode="numeric" required>
+            <br><br>
+            <label for="email">Email</label>
+            <input type="text" class="input" name="emailInput" id="email" placeholder="Enter your Email">
+            <br><br>
+            <label for="password">Password</label>
+            <input type="password" class="input-password" name="password" id="password" placeholder="Enter password"  required>
+            <br><br>
+            <label for="password2">ReEnter password</label>
+            <input type="password" class="input" name="password" id="password2" placeholder="ReEnter password" required>
+            <button id="btn"> submit Here</button>
+            <button id="showHidden">show</button>
+        
+        </div>  
+
+    </div>
+    
+
+    <script src="./script.js"></script>
+</body>
+</html>
