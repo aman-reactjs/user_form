@@ -16,8 +16,6 @@ A simple and interactive **User Form Application** to collect and manage user de
 - **CSS** - Styling for better UI/UX.
 - **JavaScript** - Validation and interactivity.
 
-## 📸 Screenshots
-(Add screenshots of your project here if available)
 
 ## 📂 Project Structure
 ```
